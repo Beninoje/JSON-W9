@@ -28,7 +28,7 @@
     },
     {
       "name": "Stupendous Strawberry",
-      "calories": 425,
+      "calories": 525,
       "type": "frozen yogurt",
       "ingredients": [
         "wild strawberries",
@@ -36,6 +36,28 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Incredible Orange",
+      "calories": 425,
+      "type": "ice cream",
+      "ingredients": [
+        "oranges",
+        "orange dip",
+        "orange sprinkles"
+      ],
+      "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Cherry Blossom",
+      "calories": 430,
+      "type": "frozen yogurt",
+      "ingredients": [
+        "wild cherries",
+        "cherry dip",
+        "cherries sprinkles"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
