@@ -38,10 +38,15 @@
 		request.onload = function(){
 			var iScreamInc = request.response;
 			console.log(iScreamInc);
-			//populateHeader()
-			//showTopFlavors();
+			//populateHeader(iScreamInc)
+			//showTopFlavors(iScreamInc);
 		}
 		/* STEP 9: Build out the populateHeader() function */
+		function populateHeader(jsonObj){
+			var headerH1 = document.createElement('header');
+			headerH1.textContent = jsonObj.companyName;
+			var section = document.createElement('section');
+		}
 
 		/* STEP 10a: Assemble the showTopFlavors() function */
 
