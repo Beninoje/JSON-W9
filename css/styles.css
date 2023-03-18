@@ -28,19 +28,35 @@ header p {
 /* section styles */
 section {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin-bottom: 5rem;
+	width: 100%;
+}
+@media screen and (max-width: 1370px) {
+	section{
+		flex-direction:column;
+	}
+	section{
+		width: 60%;
+		justify-content: center;
+	}
+	section article{
+
+		margin: 20px 0px;
+	}
 }
 section article {
 	border: 1px solid black;
 	box-shadow: 0 2px 14px grey;
 	padding: 2.5%;
-	width: 25%
+	width: auto;
+	margin: 0px 20px;
 }
 article img {
 	display: block;
 	height: 150px;
 	width: 90px;
+	
 }
 section p {
   margin: 5px 0;
